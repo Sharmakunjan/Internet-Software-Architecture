@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+nav {
+  
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 138px;
+}
+.logo img {
+  width: 100px; 
+  height: auto; 
+}
+.sidebar{
+  display: flex; 
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+.social{
+  padding-left: 800px;
+  padding-top: 250px;
+}
+li {
+  margin: 13px 49px;
+}
+.btn{
+  width: 100px;
+  background-color: rgb(135, 189, 49);
+}
+.Username{
+  background-color: rgb(174, 255, 108);
+}
+.Password{
+  background-color: rgb(174, 255, 108);
+}
+.web{
+  padding-left: 0px;
+}
+a {
+  color: #ff0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+a.mail{
+  padding-left: 650px;
+}
+a.email{
+  padding-left: 970px;
+  padding-top: px;
+}
+.content{
+  background-image: url('/Image/backgroo.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+ul.social img {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 10px; 
+}
+
+ul.social-icons img {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 10px; 
+}
+body {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+.contactform{ 
+  justify-content: center;
+  text-align: center;
+}
+.login{
+  float: right;
+  padding-right: 200px;
+  padding-top: 0px;
+}
+p.lorem{
+  padding-left: 126px;
+}
+h1{
+  padding-right: 0px;
+  text-align: center;
+}
+h3{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ff0000;
+}
