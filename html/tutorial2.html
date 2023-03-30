@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Image from JSON Object</title>
+  </head>
+  <body>
+    <div id="product"></div>
+
+    <script>
+      const product = {
+        name: "My Product",
+        description: "This is a description of my product",
+        image_url: "https://tinypng.com/images/social/website.jpg",
+      };
+
+      const img = document.createElement("img");
+      img.src = product.image_url;
+
+      const productDiv = document.getElementById("product");
+      productDiv.appendChild(img);
+    </script>   
+  </body>
+</html>
